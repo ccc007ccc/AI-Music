@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "example-piano",
+  "name": "Example Piano",
+  "instrument_id": "piano",
+  "engine": "soundfont2",
+  "entry": "piano.sf2",
+  "license": {
+    "spdx": null,
+    "name": "Replace with the asset license",
+    "source": "https://example.invalid/piano",
+    "attribution": "Replace with the required attribution"
+  }
+}

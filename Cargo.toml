@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/music-core",
+    "crates/composition-engine",
+    "crates/autopilot-engine",
+    "crates/midi-io",
+    "crates/audio-engine",
+    "crates/project-package",
+    "apps/music-cli",
+    "apps/music-desktop/src-tauri",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"

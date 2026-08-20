@@ -1,0 +1,3 @@
+# Treat Edit Scope as a trusted capability
+
+An Edit Scope must be issued or approved by the user-facing host, not self-granted by the composing model. `ProposalReviewer` proves that a Proposal obeys the supplied task; it cannot prove that an untrusted caller faithfully translated natural-language intent into that task. `CompositionSessions` therefore keeps an immutable private task behind an opaque ID, consumes it after a successful commit, and supports revocation. CLI task files represent explicit expert/user authority, while the desktop model-facing commands accept only the host-issued task ID and a Proposal.

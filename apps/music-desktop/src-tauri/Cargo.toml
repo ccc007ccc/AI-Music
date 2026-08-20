@@ -1,0 +1,20 @@
+[package]
+name = "music-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+anyhow = "1"
+audio-engine = { path = "../../../crates/audio-engine", features = ["rustysynth-backend", "sfz-backend"] }
+autopilot-engine = { path = "../../../crates/autopilot-engine" }
+composition-engine = { path = "../../../crates/composition-engine" }
+music-core = { path = "../../../crates/music-core" }
+project-package = { path = "../../../crates/project-package" }
+rfd = "0.17.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = [] }

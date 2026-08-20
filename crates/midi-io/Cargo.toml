@@ -1,0 +1,10 @@
+[package]
+name = "midi-io"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+midly = "0.5"
+music-core = { path = "../music-core" }
+thiserror = "2"

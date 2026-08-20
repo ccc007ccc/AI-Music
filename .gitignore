@@ -1,0 +1,12 @@
+/target/
+/apps/music-desktop/src-tauri/gen/schemas/
+*.wav
+*.flac
+*.sf2
+*.sf3
+.aimusic-write.lock
+*.autopilot.json
+.env
+.env.*
+!.env.example
+.DS_Store

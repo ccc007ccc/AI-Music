@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "example-sfz-piano",
+  "name": "Example SFZ Piano",
+  "instrument_id": "piano",
+  "engine": "sfz",
+  "entry": "piano.sfz",
+  "license": {
+    "spdx": null,
+    "name": "Replace with the asset license",
+    "source": "https://example.invalid/piano",
+    "attribution": "Replace with the required attribution"
+  }
+}

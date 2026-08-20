@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Music Composer"
+  short_description: "Plan, review, and compose structured AI music"
+  default_prompt: "Use $ai-music-composer to plan and compose an authorized musical change."

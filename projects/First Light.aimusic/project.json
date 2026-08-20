@@ -1,0 +1,2312 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "ppq": 960,
+  "tempo_map": {
+    "points": [
+      {
+        "tick": 0,
+        "bpm": 66.0
+      },
+      {
+        "tick": 15360,
+        "bpm": 70.0
+      },
+      {
+        "tick": 30720,
+        "bpm": 74.0
+      },
+      {
+        "tick": 46080,
+        "bpm": 82.0
+      },
+      {
+        "tick": 61440,
+        "bpm": 90.0
+      },
+      {
+        "tick": 72960,
+        "bpm": 96.0
+      },
+      {
+        "tick": 84480,
+        "bpm": 84.0
+      },
+      {
+        "tick": 92160,
+        "bpm": 72.0
+      },
+      {
+        "tick": 107520,
+        "bpm": 66.0
+      },
+      {
+        "tick": 115200,
+        "bpm": 58.0
+      },
+      {
+        "tick": 119040,
+        "bpm": 50.0
+      }
+    ]
+  },
+  "time_signature": {
+    "numerator": 4,
+    "denominator": 4
+  },
+  "tracks": [
+    {
+      "id": "piano",
+      "name": "First Light — Solo Piano",
+      "source": {
+        "kind": "midi",
+        "instrument": "piano",
+        "clips": [
+          {
+            "id": "piano-main",
+            "start_tick": 0,
+            "length_tick": 15360,
+            "notes": [],
+            "controls": []
+          },
+          {
+            "id": "first-light",
+            "start_tick": 0,
+            "length_tick": 122880,
+            "notes": [
+              {
+                "id": "b01-l1",
+                "start_tick": 0,
+                "duration_tick": 1740,
+                "pitch": 45,
+                "velocity": 42
+              },
+              {
+                "id": "b01-m1",
+                "start_tick": 360,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 54
+              },
+              {
+                "id": "b01-l2",
+                "start_tick": 960,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 35
+              },
+              {
+                "id": "b01-m2",
+                "start_tick": 1800,
+                "duration_tick": 540,
+                "pitch": 72,
+                "velocity": 49
+              },
+              {
+                "id": "b01-l3",
+                "start_tick": 1920,
+                "duration_tick": 1260,
+                "pitch": 57,
+                "velocity": 37
+              },
+              {
+                "id": "b01-m3",
+                "start_tick": 2520,
+                "duration_tick": 1140,
+                "pitch": 71,
+                "velocity": 52
+              },
+              {
+                "id": "b01-l4",
+                "start_tick": 2880,
+                "duration_tick": 840,
+                "pitch": 64,
+                "velocity": 34
+              },
+              {
+                "id": "b02-l1",
+                "start_tick": 3840,
+                "duration_tick": 1740,
+                "pitch": 41,
+                "velocity": 40
+              },
+              {
+                "id": "b02-m1",
+                "start_tick": 4200,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 52
+              },
+              {
+                "id": "b02-l2",
+                "start_tick": 4800,
+                "duration_tick": 1260,
+                "pitch": 48,
+                "velocity": 34
+              },
+              {
+                "id": "b02-m2",
+                "start_tick": 5640,
+                "duration_tick": 540,
+                "pitch": 67,
+                "velocity": 46
+              },
+              {
+                "id": "b02-l3",
+                "start_tick": 5760,
+                "duration_tick": 1260,
+                "pitch": 53,
+                "velocity": 36
+              },
+              {
+                "id": "b02-m3",
+                "start_tick": 6360,
+                "duration_tick": 1140,
+                "pitch": 64,
+                "velocity": 49
+              },
+              {
+                "id": "b02-l4",
+                "start_tick": 6720,
+                "duration_tick": 840,
+                "pitch": 60,
+                "velocity": 33
+              },
+              {
+                "id": "b03-l1",
+                "start_tick": 7680,
+                "duration_tick": 1740,
+                "pitch": 38,
+                "velocity": 44
+              },
+              {
+                "id": "b03-m1",
+                "start_tick": 8040,
+                "duration_tick": 1260,
+                "pitch": 66,
+                "velocity": 55
+              },
+              {
+                "id": "b03-l2",
+                "start_tick": 8640,
+                "duration_tick": 1260,
+                "pitch": 45,
+                "velocity": 36
+              },
+              {
+                "id": "b03-m2",
+                "start_tick": 9480,
+                "duration_tick": 540,
+                "pitch": 69,
+                "velocity": 50
+              },
+              {
+                "id": "b03-l3",
+                "start_tick": 9600,
+                "duration_tick": 1260,
+                "pitch": 50,
+                "velocity": 39
+              },
+              {
+                "id": "b03-m3",
+                "start_tick": 10200,
+                "duration_tick": 1140,
+                "pitch": 71,
+                "velocity": 54
+              },
+              {
+                "id": "b03-l4",
+                "start_tick": 10560,
+                "duration_tick": 840,
+                "pitch": 57,
+                "velocity": 35
+              },
+              {
+                "id": "b04-l1",
+                "start_tick": 11520,
+                "duration_tick": 1740,
+                "pitch": 40,
+                "velocity": 45
+              },
+              {
+                "id": "b04-m1",
+                "start_tick": 11880,
+                "duration_tick": 1260,
+                "pitch": 68,
+                "velocity": 57
+              },
+              {
+                "id": "b04-l2",
+                "start_tick": 12480,
+                "duration_tick": 1260,
+                "pitch": 47,
+                "velocity": 37
+              },
+              {
+                "id": "b04-m2",
+                "start_tick": 13320,
+                "duration_tick": 540,
+                "pitch": 71,
+                "velocity": 52
+              },
+              {
+                "id": "b04-l3",
+                "start_tick": 13440,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 39
+              },
+              {
+                "id": "b04-m3",
+                "start_tick": 14040,
+                "duration_tick": 1140,
+                "pitch": 76,
+                "velocity": 58
+              },
+              {
+                "id": "b04-l4",
+                "start_tick": 14400,
+                "duration_tick": 840,
+                "pitch": 59,
+                "velocity": 36
+              },
+              {
+                "id": "b05-l1",
+                "start_tick": 15360,
+                "duration_tick": 1740,
+                "pitch": 45,
+                "velocity": 46
+              },
+              {
+                "id": "b05-m1",
+                "start_tick": 15720,
+                "duration_tick": 1020,
+                "pitch": 72,
+                "velocity": 59
+              },
+              {
+                "id": "b05-l2",
+                "start_tick": 16320,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 38
+              },
+              {
+                "id": "b05-m2",
+                "start_tick": 16800,
+                "duration_tick": 660,
+                "pitch": 76,
+                "velocity": 55
+              },
+              {
+                "id": "b05-l3",
+                "start_tick": 17280,
+                "duration_tick": 1260,
+                "pitch": 57,
+                "velocity": 40
+              },
+              {
+                "id": "b05-m3",
+                "start_tick": 17640,
+                "duration_tick": 1380,
+                "pitch": 74,
+                "velocity": 58
+              },
+              {
+                "id": "b05-l4",
+                "start_tick": 18240,
+                "duration_tick": 840,
+                "pitch": 64,
+                "velocity": 37
+              },
+              {
+                "id": "b06-l1",
+                "start_tick": 19200,
+                "duration_tick": 1740,
+                "pitch": 41,
+                "velocity": 47
+              },
+              {
+                "id": "b06-m1",
+                "start_tick": 19560,
+                "duration_tick": 1020,
+                "pitch": 72,
+                "velocity": 58
+              },
+              {
+                "id": "b06-l2",
+                "start_tick": 20160,
+                "duration_tick": 1260,
+                "pitch": 48,
+                "velocity": 39
+              },
+              {
+                "id": "b06-m2",
+                "start_tick": 20640,
+                "duration_tick": 660,
+                "pitch": 69,
+                "velocity": 52
+              },
+              {
+                "id": "b06-l3",
+                "start_tick": 21120,
+                "duration_tick": 1260,
+                "pitch": 53,
+                "velocity": 41
+              },
+              {
+                "id": "b06-m3",
+                "start_tick": 21480,
+                "duration_tick": 1380,
+                "pitch": 67,
+                "velocity": 56
+              },
+              {
+                "id": "b06-l4",
+                "start_tick": 22080,
+                "duration_tick": 840,
+                "pitch": 60,
+                "velocity": 38
+              },
+              {
+                "id": "b07-l1",
+                "start_tick": 23040,
+                "duration_tick": 1740,
+                "pitch": 38,
+                "velocity": 49
+              },
+              {
+                "id": "b07-m1",
+                "start_tick": 23400,
+                "duration_tick": 1020,
+                "pitch": 69,
+                "velocity": 61
+              },
+              {
+                "id": "b07-l2",
+                "start_tick": 24000,
+                "duration_tick": 1260,
+                "pitch": 45,
+                "velocity": 40
+              },
+              {
+                "id": "b07-m2",
+                "start_tick": 24480,
+                "duration_tick": 660,
+                "pitch": 74,
+                "velocity": 57
+              },
+              {
+                "id": "b07-l3",
+                "start_tick": 24960,
+                "duration_tick": 1260,
+                "pitch": 50,
+                "velocity": 43
+              },
+              {
+                "id": "b07-m3",
+                "start_tick": 25320,
+                "duration_tick": 1380,
+                "pitch": 76,
+                "velocity": 62
+              },
+              {
+                "id": "b07-l4",
+                "start_tick": 25920,
+                "duration_tick": 840,
+                "pitch": 57,
+                "velocity": 39
+              },
+              {
+                "id": "b08-l1",
+                "start_tick": 26880,
+                "duration_tick": 1740,
+                "pitch": 40,
+                "velocity": 51
+              },
+              {
+                "id": "b08-m1",
+                "start_tick": 27240,
+                "duration_tick": 1020,
+                "pitch": 71,
+                "velocity": 64
+              },
+              {
+                "id": "b08-l2",
+                "start_tick": 27840,
+                "duration_tick": 1260,
+                "pitch": 47,
+                "velocity": 42
+              },
+              {
+                "id": "b08-m2",
+                "start_tick": 28320,
+                "duration_tick": 660,
+                "pitch": 76,
+                "velocity": 60
+              },
+              {
+                "id": "b08-l3",
+                "start_tick": 28800,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 44
+              },
+              {
+                "id": "b08-m3",
+                "start_tick": 29160,
+                "duration_tick": 1380,
+                "pitch": 80,
+                "velocity": 66
+              },
+              {
+                "id": "b08-l4",
+                "start_tick": 29760,
+                "duration_tick": 840,
+                "pitch": 59,
+                "velocity": 40
+              },
+              {
+                "id": "b09-l1",
+                "start_tick": 30720,
+                "duration_tick": 1500,
+                "pitch": 40,
+                "velocity": 53
+              },
+              {
+                "id": "b09-m1",
+                "start_tick": 30960,
+                "duration_tick": 660,
+                "pitch": 68,
+                "velocity": 61
+              },
+              {
+                "id": "b09-l2",
+                "start_tick": 31680,
+                "duration_tick": 1140,
+                "pitch": 47,
+                "velocity": 44
+              },
+              {
+                "id": "b09-m2",
+                "start_tick": 31920,
+                "duration_tick": 660,
+                "pitch": 71,
+                "velocity": 64
+              },
+              {
+                "id": "b09-l3",
+                "start_tick": 32640,
+                "duration_tick": 1140,
+                "pitch": 52,
+                "velocity": 46
+              },
+              {
+                "id": "b09-m3",
+                "start_tick": 32880,
+                "duration_tick": 660,
+                "pitch": 76,
+                "velocity": 67
+              },
+              {
+                "id": "b09-l4",
+                "start_tick": 33600,
+                "duration_tick": 720,
+                "pitch": 59,
+                "velocity": 42
+              },
+              {
+                "id": "b09-m4",
+                "start_tick": 33840,
+                "duration_tick": 480,
+                "pitch": 78,
+                "velocity": 70
+              },
+              {
+                "id": "b10-l1",
+                "start_tick": 34560,
+                "duration_tick": 1500,
+                "pitch": 41,
+                "velocity": 55
+              },
+              {
+                "id": "b10-m1",
+                "start_tick": 34800,
+                "duration_tick": 660,
+                "pitch": 69,
+                "velocity": 64
+              },
+              {
+                "id": "b10-l2",
+                "start_tick": 35520,
+                "duration_tick": 1140,
+                "pitch": 48,
+                "velocity": 45
+              },
+              {
+                "id": "b10-m2",
+                "start_tick": 35760,
+                "duration_tick": 660,
+                "pitch": 72,
+                "velocity": 67
+              },
+              {
+                "id": "b10-l3",
+                "start_tick": 36480,
+                "duration_tick": 1140,
+                "pitch": 53,
+                "velocity": 48
+              },
+              {
+                "id": "b10-m3",
+                "start_tick": 36720,
+                "duration_tick": 660,
+                "pitch": 76,
+                "velocity": 70
+              },
+              {
+                "id": "b10-l4",
+                "start_tick": 37440,
+                "duration_tick": 720,
+                "pitch": 60,
+                "velocity": 43
+              },
+              {
+                "id": "b10-m4",
+                "start_tick": 37680,
+                "duration_tick": 480,
+                "pitch": 81,
+                "velocity": 74
+              },
+              {
+                "id": "b11-l1",
+                "start_tick": 38400,
+                "duration_tick": 1500,
+                "pitch": 38,
+                "velocity": 57
+              },
+              {
+                "id": "b11-m1",
+                "start_tick": 38640,
+                "duration_tick": 660,
+                "pitch": 69,
+                "velocity": 67
+              },
+              {
+                "id": "b11-l2",
+                "start_tick": 39360,
+                "duration_tick": 1140,
+                "pitch": 45,
+                "velocity": 47
+              },
+              {
+                "id": "b11-m2",
+                "start_tick": 39600,
+                "duration_tick": 660,
+                "pitch": 74,
+                "velocity": 70
+              },
+              {
+                "id": "b11-l3",
+                "start_tick": 40320,
+                "duration_tick": 1140,
+                "pitch": 50,
+                "velocity": 50
+              },
+              {
+                "id": "b11-m3",
+                "start_tick": 40560,
+                "duration_tick": 660,
+                "pitch": 78,
+                "velocity": 74
+              },
+              {
+                "id": "b11-l4",
+                "start_tick": 41280,
+                "duration_tick": 720,
+                "pitch": 57,
+                "velocity": 45
+              },
+              {
+                "id": "b11-m4",
+                "start_tick": 41520,
+                "duration_tick": 480,
+                "pitch": 81,
+                "velocity": 78
+              },
+              {
+                "id": "b12-l1",
+                "start_tick": 42240,
+                "duration_tick": 1500,
+                "pitch": 43,
+                "velocity": 59
+              },
+              {
+                "id": "b12-m1",
+                "start_tick": 42480,
+                "duration_tick": 660,
+                "pitch": 71,
+                "velocity": 70
+              },
+              {
+                "id": "b12-l2",
+                "start_tick": 43200,
+                "duration_tick": 1140,
+                "pitch": 50,
+                "velocity": 49
+              },
+              {
+                "id": "b12-m2",
+                "start_tick": 43440,
+                "duration_tick": 660,
+                "pitch": 74,
+                "velocity": 73
+              },
+              {
+                "id": "b12-l3",
+                "start_tick": 44160,
+                "duration_tick": 1140,
+                "pitch": 55,
+                "velocity": 52
+              },
+              {
+                "id": "b12-m3",
+                "start_tick": 44400,
+                "duration_tick": 660,
+                "pitch": 79,
+                "velocity": 77
+              },
+              {
+                "id": "b12-l4",
+                "start_tick": 45120,
+                "duration_tick": 720,
+                "pitch": 62,
+                "velocity": 47
+              },
+              {
+                "id": "b12-m4",
+                "start_tick": 45360,
+                "duration_tick": 480,
+                "pitch": 83,
+                "velocity": 82
+              },
+              {
+                "id": "b13-l1",
+                "start_tick": 46080,
+                "duration_tick": 900,
+                "pitch": 36,
+                "velocity": 62
+              },
+              {
+                "id": "b13-m1",
+                "start_tick": 46320,
+                "duration_tick": 420,
+                "pitch": 72,
+                "velocity": 72
+              },
+              {
+                "id": "b13-m2",
+                "start_tick": 46800,
+                "duration_tick": 420,
+                "pitch": 76,
+                "velocity": 75
+              },
+              {
+                "id": "b13-l2",
+                "start_tick": 47040,
+                "duration_tick": 780,
+                "pitch": 43,
+                "velocity": 53
+              },
+              {
+                "id": "b13-m3",
+                "start_tick": 47280,
+                "duration_tick": 420,
+                "pitch": 79,
+                "velocity": 78
+              },
+              {
+                "id": "b13-m4",
+                "start_tick": 47760,
+                "duration_tick": 420,
+                "pitch": 84,
+                "velocity": 82
+              },
+              {
+                "id": "b13-l3",
+                "start_tick": 48000,
+                "duration_tick": 900,
+                "pitch": 48,
+                "velocity": 57
+              },
+              {
+                "id": "b13-m5",
+                "start_tick": 48240,
+                "duration_tick": 420,
+                "pitch": 79,
+                "velocity": 76
+              },
+              {
+                "id": "b13-m6",
+                "start_tick": 48720,
+                "duration_tick": 420,
+                "pitch": 76,
+                "velocity": 73
+              },
+              {
+                "id": "b13-l4",
+                "start_tick": 48960,
+                "duration_tick": 780,
+                "pitch": 55,
+                "velocity": 51
+              },
+              {
+                "id": "b13-m7",
+                "start_tick": 49200,
+                "duration_tick": 420,
+                "pitch": 74,
+                "velocity": 71
+              },
+              {
+                "id": "b13-m8",
+                "start_tick": 49680,
+                "duration_tick": 300,
+                "pitch": 72,
+                "velocity": 69
+              },
+              {
+                "id": "b14-l1",
+                "start_tick": 49920,
+                "duration_tick": 900,
+                "pitch": 38,
+                "velocity": 64
+              },
+              {
+                "id": "b14-m1",
+                "start_tick": 50160,
+                "duration_tick": 420,
+                "pitch": 74,
+                "velocity": 74
+              },
+              {
+                "id": "b14-m2",
+                "start_tick": 50640,
+                "duration_tick": 420,
+                "pitch": 78,
+                "velocity": 77
+              },
+              {
+                "id": "b14-l2",
+                "start_tick": 50880,
+                "duration_tick": 780,
+                "pitch": 45,
+                "velocity": 55
+              },
+              {
+                "id": "b14-m3",
+                "start_tick": 51120,
+                "duration_tick": 420,
+                "pitch": 81,
+                "velocity": 80
+              },
+              {
+                "id": "b14-m4",
+                "start_tick": 51600,
+                "duration_tick": 420,
+                "pitch": 86,
+                "velocity": 84
+              },
+              {
+                "id": "b14-l3",
+                "start_tick": 51840,
+                "duration_tick": 900,
+                "pitch": 50,
+                "velocity": 59
+              },
+              {
+                "id": "b14-m5",
+                "start_tick": 52080,
+                "duration_tick": 420,
+                "pitch": 81,
+                "velocity": 78
+              },
+              {
+                "id": "b14-m6",
+                "start_tick": 52560,
+                "duration_tick": 420,
+                "pitch": 78,
+                "velocity": 75
+              },
+              {
+                "id": "b14-l4",
+                "start_tick": 52800,
+                "duration_tick": 780,
+                "pitch": 57,
+                "velocity": 53
+              },
+              {
+                "id": "b14-m7",
+                "start_tick": 53040,
+                "duration_tick": 420,
+                "pitch": 76,
+                "velocity": 73
+              },
+              {
+                "id": "b14-m8",
+                "start_tick": 53520,
+                "duration_tick": 300,
+                "pitch": 74,
+                "velocity": 71
+              },
+              {
+                "id": "b15-l1",
+                "start_tick": 53760,
+                "duration_tick": 900,
+                "pitch": 41,
+                "velocity": 66
+              },
+              {
+                "id": "b15-m1",
+                "start_tick": 54000,
+                "duration_tick": 420,
+                "pitch": 76,
+                "velocity": 76
+              },
+              {
+                "id": "b15-m2",
+                "start_tick": 54480,
+                "duration_tick": 420,
+                "pitch": 81,
+                "velocity": 80
+              },
+              {
+                "id": "b15-l2",
+                "start_tick": 54720,
+                "duration_tick": 780,
+                "pitch": 48,
+                "velocity": 57
+              },
+              {
+                "id": "b15-m3",
+                "start_tick": 54960,
+                "duration_tick": 420,
+                "pitch": 84,
+                "velocity": 83
+              },
+              {
+                "id": "b15-m4",
+                "start_tick": 55440,
+                "duration_tick": 420,
+                "pitch": 88,
+                "velocity": 88
+              },
+              {
+                "id": "b15-l3",
+                "start_tick": 55680,
+                "duration_tick": 900,
+                "pitch": 53,
+                "velocity": 61
+              },
+              {
+                "id": "b15-m5",
+                "start_tick": 55920,
+                "duration_tick": 420,
+                "pitch": 84,
+                "velocity": 82
+              },
+              {
+                "id": "b15-m6",
+                "start_tick": 56400,
+                "duration_tick": 420,
+                "pitch": 81,
+                "velocity": 79
+              },
+              {
+                "id": "b15-l4",
+                "start_tick": 56640,
+                "duration_tick": 780,
+                "pitch": 60,
+                "velocity": 55
+              },
+              {
+                "id": "b15-m7",
+                "start_tick": 56880,
+                "duration_tick": 420,
+                "pitch": 79,
+                "velocity": 76
+              },
+              {
+                "id": "b15-m8",
+                "start_tick": 57360,
+                "duration_tick": 300,
+                "pitch": 76,
+                "velocity": 74
+              },
+              {
+                "id": "b16-l1",
+                "start_tick": 57600,
+                "duration_tick": 900,
+                "pitch": 43,
+                "velocity": 68
+              },
+              {
+                "id": "b16-m1",
+                "start_tick": 57840,
+                "duration_tick": 420,
+                "pitch": 74,
+                "velocity": 78
+              },
+              {
+                "id": "b16-m2",
+                "start_tick": 58320,
+                "duration_tick": 420,
+                "pitch": 79,
+                "velocity": 82
+              },
+              {
+                "id": "b16-l2",
+                "start_tick": 58560,
+                "duration_tick": 780,
+                "pitch": 50,
+                "velocity": 59
+              },
+              {
+                "id": "b16-m3",
+                "start_tick": 58800,
+                "duration_tick": 420,
+                "pitch": 83,
+                "velocity": 86
+              },
+              {
+                "id": "b16-m4",
+                "start_tick": 59280,
+                "duration_tick": 420,
+                "pitch": 86,
+                "velocity": 90
+              },
+              {
+                "id": "b16-l3",
+                "start_tick": 59520,
+                "duration_tick": 900,
+                "pitch": 55,
+                "velocity": 63
+              },
+              {
+                "id": "b16-m5",
+                "start_tick": 59760,
+                "duration_tick": 420,
+                "pitch": 83,
+                "velocity": 84
+              },
+              {
+                "id": "b16-m6",
+                "start_tick": 60240,
+                "duration_tick": 420,
+                "pitch": 79,
+                "velocity": 81
+              },
+              {
+                "id": "b16-l4",
+                "start_tick": 60480,
+                "duration_tick": 780,
+                "pitch": 62,
+                "velocity": 57
+              },
+              {
+                "id": "b16-m7",
+                "start_tick": 60720,
+                "duration_tick": 420,
+                "pitch": 76,
+                "velocity": 78
+              },
+              {
+                "id": "b16-m8",
+                "start_tick": 61200,
+                "duration_tick": 300,
+                "pitch": 74,
+                "velocity": 76
+              },
+              {
+                "id": "b17-l1",
+                "start_tick": 61440,
+                "duration_tick": 1740,
+                "pitch": 45,
+                "velocity": 72
+              },
+              {
+                "id": "b17-m1",
+                "start_tick": 61680,
+                "duration_tick": 1260,
+                "pitch": 81,
+                "velocity": 86
+              },
+              {
+                "id": "b17-l2",
+                "start_tick": 62400,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 61
+              },
+              {
+                "id": "b17-m2",
+                "start_tick": 63120,
+                "duration_tick": 540,
+                "pitch": 84,
+                "velocity": 82
+              },
+              {
+                "id": "b17-l3",
+                "start_tick": 63360,
+                "duration_tick": 1260,
+                "pitch": 57,
+                "velocity": 64
+              },
+              {
+                "id": "b17-m3",
+                "start_tick": 63840,
+                "duration_tick": 1140,
+                "pitch": 83,
+                "velocity": 85
+              },
+              {
+                "id": "b17-l4",
+                "start_tick": 64320,
+                "duration_tick": 840,
+                "pitch": 64,
+                "velocity": 59
+              },
+              {
+                "id": "b18-l1",
+                "start_tick": 65280,
+                "duration_tick": 1740,
+                "pitch": 41,
+                "velocity": 74
+              },
+              {
+                "id": "b18-m1",
+                "start_tick": 65520,
+                "duration_tick": 1260,
+                "pitch": 81,
+                "velocity": 87
+              },
+              {
+                "id": "b18-l2",
+                "start_tick": 66240,
+                "duration_tick": 1260,
+                "pitch": 48,
+                "velocity": 63
+              },
+              {
+                "id": "b18-m2",
+                "start_tick": 66960,
+                "duration_tick": 540,
+                "pitch": 79,
+                "velocity": 83
+              },
+              {
+                "id": "b18-l3",
+                "start_tick": 67200,
+                "duration_tick": 1260,
+                "pitch": 53,
+                "velocity": 66
+              },
+              {
+                "id": "b18-m3",
+                "start_tick": 67680,
+                "duration_tick": 1140,
+                "pitch": 76,
+                "velocity": 86
+              },
+              {
+                "id": "b18-l4",
+                "start_tick": 68160,
+                "duration_tick": 840,
+                "pitch": 60,
+                "velocity": 61
+              },
+              {
+                "id": "b19-l1",
+                "start_tick": 69120,
+                "duration_tick": 1740,
+                "pitch": 38,
+                "velocity": 77
+              },
+              {
+                "id": "b19-m1",
+                "start_tick": 69360,
+                "duration_tick": 1260,
+                "pitch": 78,
+                "velocity": 90
+              },
+              {
+                "id": "b19-l2",
+                "start_tick": 70080,
+                "duration_tick": 1260,
+                "pitch": 45,
+                "velocity": 65
+              },
+              {
+                "id": "b19-m2",
+                "start_tick": 70800,
+                "duration_tick": 540,
+                "pitch": 81,
+                "velocity": 86
+              },
+              {
+                "id": "b19-l3",
+                "start_tick": 71040,
+                "duration_tick": 1260,
+                "pitch": 50,
+                "velocity": 68
+              },
+              {
+                "id": "b19-m3",
+                "start_tick": 71520,
+                "duration_tick": 1140,
+                "pitch": 83,
+                "velocity": 91
+              },
+              {
+                "id": "b19-l4",
+                "start_tick": 72000,
+                "duration_tick": 840,
+                "pitch": 57,
+                "velocity": 63
+              },
+              {
+                "id": "b20-l1",
+                "start_tick": 72960,
+                "duration_tick": 3480,
+                "pitch": 40,
+                "velocity": 82
+              },
+              {
+                "id": "b20-c1",
+                "start_tick": 72960,
+                "duration_tick": 3360,
+                "pitch": 52,
+                "velocity": 72
+              },
+              {
+                "id": "b20-c2",
+                "start_tick": 72960,
+                "duration_tick": 3360,
+                "pitch": 56,
+                "velocity": 76
+              },
+              {
+                "id": "b20-c3",
+                "start_tick": 72960,
+                "duration_tick": 3360,
+                "pitch": 59,
+                "velocity": 79
+              },
+              {
+                "id": "b20-m1",
+                "start_tick": 72960,
+                "duration_tick": 900,
+                "pitch": 80,
+                "velocity": 94
+              },
+              {
+                "id": "b20-m2",
+                "start_tick": 73920,
+                "duration_tick": 900,
+                "pitch": 83,
+                "velocity": 98
+              },
+              {
+                "id": "b20-m3",
+                "start_tick": 74880,
+                "duration_tick": 900,
+                "pitch": 88,
+                "velocity": 104
+              },
+              {
+                "id": "b20-m4",
+                "start_tick": 75840,
+                "duration_tick": 720,
+                "pitch": 87,
+                "velocity": 101
+              },
+              {
+                "id": "b21-l1",
+                "start_tick": 76800,
+                "duration_tick": 3480,
+                "pitch": 41,
+                "velocity": 85
+              },
+              {
+                "id": "b21-c1",
+                "start_tick": 76800,
+                "duration_tick": 3360,
+                "pitch": 53,
+                "velocity": 74
+              },
+              {
+                "id": "b21-c2",
+                "start_tick": 76800,
+                "duration_tick": 3360,
+                "pitch": 57,
+                "velocity": 78
+              },
+              {
+                "id": "b21-c3",
+                "start_tick": 76800,
+                "duration_tick": 3360,
+                "pitch": 60,
+                "velocity": 82
+              },
+              {
+                "id": "b21-m1",
+                "start_tick": 76800,
+                "duration_tick": 900,
+                "pitch": 81,
+                "velocity": 98
+              },
+              {
+                "id": "b21-m2",
+                "start_tick": 77760,
+                "duration_tick": 900,
+                "pitch": 84,
+                "velocity": 102
+              },
+              {
+                "id": "b21-m3",
+                "start_tick": 78720,
+                "duration_tick": 900,
+                "pitch": 88,
+                "velocity": 108
+              },
+              {
+                "id": "b21-m4",
+                "start_tick": 79680,
+                "duration_tick": 720,
+                "pitch": 93,
+                "velocity": 112
+              },
+              {
+                "id": "b22-l1",
+                "start_tick": 80640,
+                "duration_tick": 3480,
+                "pitch": 38,
+                "velocity": 88
+              },
+              {
+                "id": "b22-c1",
+                "start_tick": 80640,
+                "duration_tick": 3360,
+                "pitch": 50,
+                "velocity": 76
+              },
+              {
+                "id": "b22-c2",
+                "start_tick": 80640,
+                "duration_tick": 3360,
+                "pitch": 54,
+                "velocity": 81
+              },
+              {
+                "id": "b22-c3",
+                "start_tick": 80640,
+                "duration_tick": 3360,
+                "pitch": 57,
+                "velocity": 85
+              },
+              {
+                "id": "b22-m1",
+                "start_tick": 80640,
+                "duration_tick": 900,
+                "pitch": 78,
+                "velocity": 101
+              },
+              {
+                "id": "b22-m2",
+                "start_tick": 81600,
+                "duration_tick": 900,
+                "pitch": 81,
+                "velocity": 105
+              },
+              {
+                "id": "b22-m3",
+                "start_tick": 82560,
+                "duration_tick": 900,
+                "pitch": 86,
+                "velocity": 110
+              },
+              {
+                "id": "b22-m4",
+                "start_tick": 83520,
+                "duration_tick": 720,
+                "pitch": 90,
+                "velocity": 114
+              },
+              {
+                "id": "b23-l1",
+                "start_tick": 84480,
+                "duration_tick": 3480,
+                "pitch": 43,
+                "velocity": 86
+              },
+              {
+                "id": "b23-c1",
+                "start_tick": 84480,
+                "duration_tick": 3360,
+                "pitch": 50,
+                "velocity": 74
+              },
+              {
+                "id": "b23-c2",
+                "start_tick": 84480,
+                "duration_tick": 3360,
+                "pitch": 55,
+                "velocity": 79
+              },
+              {
+                "id": "b23-c3",
+                "start_tick": 84480,
+                "duration_tick": 3360,
+                "pitch": 59,
+                "velocity": 83
+              },
+              {
+                "id": "b23-m1",
+                "start_tick": 84480,
+                "duration_tick": 900,
+                "pitch": 79,
+                "velocity": 99
+              },
+              {
+                "id": "b23-m2",
+                "start_tick": 85440,
+                "duration_tick": 900,
+                "pitch": 83,
+                "velocity": 103
+              },
+              {
+                "id": "b23-m3",
+                "start_tick": 86400,
+                "duration_tick": 900,
+                "pitch": 86,
+                "velocity": 108
+              },
+              {
+                "id": "b23-m4",
+                "start_tick": 87360,
+                "duration_tick": 720,
+                "pitch": 91,
+                "velocity": 111
+              },
+              {
+                "id": "b24-l1",
+                "start_tick": 88320,
+                "duration_tick": 3480,
+                "pitch": 40,
+                "velocity": 78
+              },
+              {
+                "id": "b24-c1",
+                "start_tick": 88320,
+                "duration_tick": 3360,
+                "pitch": 47,
+                "velocity": 68
+              },
+              {
+                "id": "b24-c2",
+                "start_tick": 88320,
+                "duration_tick": 3360,
+                "pitch": 52,
+                "velocity": 72
+              },
+              {
+                "id": "b24-c3",
+                "start_tick": 88320,
+                "duration_tick": 3360,
+                "pitch": 56,
+                "velocity": 76
+              },
+              {
+                "id": "b24-m1",
+                "start_tick": 88320,
+                "duration_tick": 900,
+                "pitch": 80,
+                "velocity": 92
+              },
+              {
+                "id": "b24-m2",
+                "start_tick": 89280,
+                "duration_tick": 900,
+                "pitch": 83,
+                "velocity": 89
+              },
+              {
+                "id": "b24-m3",
+                "start_tick": 90240,
+                "duration_tick": 900,
+                "pitch": 87,
+                "velocity": 86
+              },
+              {
+                "id": "b24-m4",
+                "start_tick": 91200,
+                "duration_tick": 720,
+                "pitch": 88,
+                "velocity": 82
+              },
+              {
+                "id": "b25-l1",
+                "start_tick": 92160,
+                "duration_tick": 1740,
+                "pitch": 45,
+                "velocity": 57
+              },
+              {
+                "id": "b25-m1",
+                "start_tick": 92520,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 68
+              },
+              {
+                "id": "b25-l2",
+                "start_tick": 93120,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 47
+              },
+              {
+                "id": "b25-m2",
+                "start_tick": 93960,
+                "duration_tick": 540,
+                "pitch": 72,
+                "velocity": 63
+              },
+              {
+                "id": "b25-l3",
+                "start_tick": 94080,
+                "duration_tick": 1260,
+                "pitch": 57,
+                "velocity": 49
+              },
+              {
+                "id": "b25-m3",
+                "start_tick": 94680,
+                "duration_tick": 1140,
+                "pitch": 71,
+                "velocity": 66
+              },
+              {
+                "id": "b25-l4",
+                "start_tick": 95040,
+                "duration_tick": 840,
+                "pitch": 64,
+                "velocity": 45
+              },
+              {
+                "id": "b26-l1",
+                "start_tick": 96000,
+                "duration_tick": 1740,
+                "pitch": 41,
+                "velocity": 55
+              },
+              {
+                "id": "b26-m1",
+                "start_tick": 96360,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 65
+              },
+              {
+                "id": "b26-l2",
+                "start_tick": 96960,
+                "duration_tick": 1260,
+                "pitch": 48,
+                "velocity": 45
+              },
+              {
+                "id": "b26-m2",
+                "start_tick": 97800,
+                "duration_tick": 540,
+                "pitch": 67,
+                "velocity": 60
+              },
+              {
+                "id": "b26-l3",
+                "start_tick": 97920,
+                "duration_tick": 1260,
+                "pitch": 53,
+                "velocity": 47
+              },
+              {
+                "id": "b26-m3",
+                "start_tick": 98520,
+                "duration_tick": 1140,
+                "pitch": 64,
+                "velocity": 63
+              },
+              {
+                "id": "b26-l4",
+                "start_tick": 98880,
+                "duration_tick": 840,
+                "pitch": 60,
+                "velocity": 43
+              },
+              {
+                "id": "b27-l1",
+                "start_tick": 99840,
+                "duration_tick": 1740,
+                "pitch": 38,
+                "velocity": 53
+              },
+              {
+                "id": "b27-m1",
+                "start_tick": 100200,
+                "duration_tick": 1260,
+                "pitch": 66,
+                "velocity": 63
+              },
+              {
+                "id": "b27-l2",
+                "start_tick": 100800,
+                "duration_tick": 1260,
+                "pitch": 45,
+                "velocity": 43
+              },
+              {
+                "id": "b27-m2",
+                "start_tick": 101640,
+                "duration_tick": 540,
+                "pitch": 69,
+                "velocity": 58
+              },
+              {
+                "id": "b27-l3",
+                "start_tick": 101760,
+                "duration_tick": 1260,
+                "pitch": 50,
+                "velocity": 45
+              },
+              {
+                "id": "b27-m3",
+                "start_tick": 102360,
+                "duration_tick": 1140,
+                "pitch": 71,
+                "velocity": 61
+              },
+              {
+                "id": "b27-l4",
+                "start_tick": 102720,
+                "duration_tick": 840,
+                "pitch": 57,
+                "velocity": 41
+              },
+              {
+                "id": "b28-l1",
+                "start_tick": 103680,
+                "duration_tick": 1740,
+                "pitch": 40,
+                "velocity": 51
+              },
+              {
+                "id": "b28-m1",
+                "start_tick": 104040,
+                "duration_tick": 1260,
+                "pitch": 68,
+                "velocity": 61
+              },
+              {
+                "id": "b28-l2",
+                "start_tick": 104640,
+                "duration_tick": 1260,
+                "pitch": 47,
+                "velocity": 41
+              },
+              {
+                "id": "b28-m2",
+                "start_tick": 105480,
+                "duration_tick": 540,
+                "pitch": 71,
+                "velocity": 56
+              },
+              {
+                "id": "b28-l3",
+                "start_tick": 105600,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 43
+              },
+              {
+                "id": "b28-m3",
+                "start_tick": 106200,
+                "duration_tick": 1140,
+                "pitch": 76,
+                "velocity": 60
+              },
+              {
+                "id": "b28-l4",
+                "start_tick": 106560,
+                "duration_tick": 840,
+                "pitch": 59,
+                "velocity": 39
+              },
+              {
+                "id": "b29-l1",
+                "start_tick": 107520,
+                "duration_tick": 1740,
+                "pitch": 45,
+                "velocity": 45
+              },
+              {
+                "id": "b29-m1",
+                "start_tick": 107880,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 55
+              },
+              {
+                "id": "b29-l2",
+                "start_tick": 108480,
+                "duration_tick": 1260,
+                "pitch": 52,
+                "velocity": 36
+              },
+              {
+                "id": "b29-m2",
+                "start_tick": 109320,
+                "duration_tick": 540,
+                "pitch": 72,
+                "velocity": 50
+              },
+              {
+                "id": "b29-l3",
+                "start_tick": 109440,
+                "duration_tick": 1260,
+                "pitch": 57,
+                "velocity": 38
+              },
+              {
+                "id": "b29-m3",
+                "start_tick": 110040,
+                "duration_tick": 1140,
+                "pitch": 71,
+                "velocity": 53
+              },
+              {
+                "id": "b29-l4",
+                "start_tick": 110400,
+                "duration_tick": 840,
+                "pitch": 64,
+                "velocity": 34
+              },
+              {
+                "id": "b30-l1",
+                "start_tick": 111360,
+                "duration_tick": 1740,
+                "pitch": 41,
+                "velocity": 43
+              },
+              {
+                "id": "b30-m1",
+                "start_tick": 111720,
+                "duration_tick": 1260,
+                "pitch": 69,
+                "velocity": 52
+              },
+              {
+                "id": "b30-l2",
+                "start_tick": 112320,
+                "duration_tick": 1260,
+                "pitch": 48,
+                "velocity": 34
+              },
+              {
+                "id": "b30-m2",
+                "start_tick": 113160,
+                "duration_tick": 540,
+                "pitch": 67,
+                "velocity": 47
+              },
+              {
+                "id": "b30-l3",
+                "start_tick": 113280,
+                "duration_tick": 1260,
+                "pitch": 53,
+                "velocity": 36
+              },
+              {
+                "id": "b30-m3",
+                "start_tick": 113880,
+                "duration_tick": 1140,
+                "pitch": 64,
+                "velocity": 50
+              },
+              {
+                "id": "b30-l4",
+                "start_tick": 114240,
+                "duration_tick": 840,
+                "pitch": 60,
+                "velocity": 32
+              },
+              {
+                "id": "b31-l1",
+                "start_tick": 115200,
+                "duration_tick": 3480,
+                "pitch": 45,
+                "velocity": 40
+              },
+              {
+                "id": "b31-c1",
+                "start_tick": 115200,
+                "duration_tick": 3300,
+                "pitch": 52,
+                "velocity": 34
+              },
+              {
+                "id": "b31-c2",
+                "start_tick": 115200,
+                "duration_tick": 3300,
+                "pitch": 57,
+                "velocity": 36
+              },
+              {
+                "id": "b31-c3",
+                "start_tick": 115200,
+                "duration_tick": 3300,
+                "pitch": 61,
+                "velocity": 33
+              },
+              {
+                "id": "b31-m1",
+                "start_tick": 115560,
+                "duration_tick": 900,
+                "pitch": 69,
+                "velocity": 49
+              },
+              {
+                "id": "b31-m2",
+                "start_tick": 116640,
+                "duration_tick": 900,
+                "pitch": 72,
+                "velocity": 46
+              },
+              {
+                "id": "b31-m3",
+                "start_tick": 117720,
+                "duration_tick": 900,
+                "pitch": 76,
+                "velocity": 43
+              },
+              {
+                "id": "b32-l1",
+                "start_tick": 119040,
+                "duration_tick": 3600,
+                "pitch": 45,
+                "velocity": 34
+              },
+              {
+                "id": "b32-c1",
+                "start_tick": 119040,
+                "duration_tick": 3540,
+                "pitch": 52,
+                "velocity": 28
+              },
+              {
+                "id": "b32-c2",
+                "start_tick": 119040,
+                "duration_tick": 3540,
+                "pitch": 57,
+                "velocity": 30
+              },
+              {
+                "id": "b32-c3",
+                "start_tick": 119040,
+                "duration_tick": 3540,
+                "pitch": 64,
+                "velocity": 27
+              },
+              {
+                "id": "b32-m1",
+                "start_tick": 119520,
+                "duration_tick": 2760,
+                "pitch": 69,
+                "velocity": 42
+              },
+              {
+                "id": "b32-m2",
+                "start_tick": 120480,
+                "duration_tick": 1860,
+                "pitch": 76,
+                "velocity": 35
+              },
+              {
+                "id": "b32-m3",
+                "start_tick": 121440,
+                "duration_tick": 900,
+                "pitch": 81,
+                "velocity": 29
+              }
+            ],
+            "controls": [
+              {
+                "id": "soft-on",
+                "tick": 0,
+                "controller": 67,
+                "value": 127
+              },
+              {
+                "id": "pedal-01-down",
+                "tick": 0,
+                "controller": 64,
+                "value": 92
+              },
+              {
+                "id": "pedal-01-up",
+                "tick": 3720,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-02-down",
+                "tick": 3840,
+                "controller": 64,
+                "value": 96
+              },
+              {
+                "id": "pedal-02-up",
+                "tick": 7560,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-03-down",
+                "tick": 7680,
+                "controller": 64,
+                "value": 98
+              },
+              {
+                "id": "pedal-03-up",
+                "tick": 11400,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-04-down",
+                "tick": 11520,
+                "controller": 64,
+                "value": 102
+              },
+              {
+                "id": "pedal-04-up",
+                "tick": 15240,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-05-down",
+                "tick": 15360,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-05-up",
+                "tick": 19080,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-06-down",
+                "tick": 19200,
+                "controller": 64,
+                "value": 100
+              },
+              {
+                "id": "pedal-06-up",
+                "tick": 22920,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-07-down",
+                "tick": 23040,
+                "controller": 64,
+                "value": 102
+              },
+              {
+                "id": "pedal-07-up",
+                "tick": 26760,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-08-down",
+                "tick": 26880,
+                "controller": 64,
+                "value": 108
+              },
+              {
+                "id": "pedal-08-up",
+                "tick": 30600,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "soft-off",
+                "tick": 30720,
+                "controller": 67,
+                "value": 0
+              },
+              {
+                "id": "pedal-09-down",
+                "tick": 30720,
+                "controller": 64,
+                "value": 86
+              },
+              {
+                "id": "pedal-09-up",
+                "tick": 34440,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-10-down",
+                "tick": 34560,
+                "controller": 64,
+                "value": 90
+              },
+              {
+                "id": "pedal-10-up",
+                "tick": 38280,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-11-down",
+                "tick": 38400,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-11-up",
+                "tick": 42120,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-12-down",
+                "tick": 42240,
+                "controller": 64,
+                "value": 98
+              },
+              {
+                "id": "pedal-12-up",
+                "tick": 45960,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-13a-down",
+                "tick": 46080,
+                "controller": 64,
+                "value": 78
+              },
+              {
+                "id": "pedal-13a-up",
+                "tick": 47940,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-13b-down",
+                "tick": 48000,
+                "controller": 64,
+                "value": 82
+              },
+              {
+                "id": "pedal-13b-up",
+                "tick": 49740,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-14a-down",
+                "tick": 49920,
+                "controller": 64,
+                "value": 80
+              },
+              {
+                "id": "pedal-14a-up",
+                "tick": 51780,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-14b-down",
+                "tick": 51840,
+                "controller": 64,
+                "value": 86
+              },
+              {
+                "id": "pedal-14b-up",
+                "tick": 53580,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-15a-down",
+                "tick": 53760,
+                "controller": 64,
+                "value": 84
+              },
+              {
+                "id": "pedal-15a-up",
+                "tick": 55620,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-15b-down",
+                "tick": 55680,
+                "controller": 64,
+                "value": 90
+              },
+              {
+                "id": "pedal-15b-up",
+                "tick": 57420,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-16a-down",
+                "tick": 57600,
+                "controller": 64,
+                "value": 88
+              },
+              {
+                "id": "pedal-16a-up",
+                "tick": 59460,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-16b-down",
+                "tick": 59520,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-16b-up",
+                "tick": 61260,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-17-down",
+                "tick": 61440,
+                "controller": 64,
+                "value": 92
+              },
+              {
+                "id": "pedal-17-up",
+                "tick": 65160,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-18-down",
+                "tick": 65280,
+                "controller": 64,
+                "value": 96
+              },
+              {
+                "id": "pedal-18-up",
+                "tick": 69000,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-19-down",
+                "tick": 69120,
+                "controller": 64,
+                "value": 100
+              },
+              {
+                "id": "pedal-19-up",
+                "tick": 72840,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-20-down",
+                "tick": 72960,
+                "controller": 64,
+                "value": 106
+              },
+              {
+                "id": "pedal-20-up",
+                "tick": 76680,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-21-down",
+                "tick": 76800,
+                "controller": 64,
+                "value": 110
+              },
+              {
+                "id": "pedal-21-up",
+                "tick": 80520,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-22-down",
+                "tick": 80640,
+                "controller": 64,
+                "value": 108
+              },
+              {
+                "id": "pedal-22-up",
+                "tick": 84360,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-23-down",
+                "tick": 84480,
+                "controller": 64,
+                "value": 100
+              },
+              {
+                "id": "pedal-23-up",
+                "tick": 88200,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-24-down",
+                "tick": 88320,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-24-up",
+                "tick": 92040,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-25-down",
+                "tick": 92160,
+                "controller": 64,
+                "value": 90
+              },
+              {
+                "id": "pedal-25-up",
+                "tick": 95880,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-26-down",
+                "tick": 96000,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-26-up",
+                "tick": 99720,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-27-down",
+                "tick": 99840,
+                "controller": 64,
+                "value": 92
+              },
+              {
+                "id": "pedal-27-up",
+                "tick": 103560,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-28-down",
+                "tick": 103680,
+                "controller": 64,
+                "value": 98
+              },
+              {
+                "id": "pedal-28-up",
+                "tick": 107400,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "soft-return",
+                "tick": 107520,
+                "controller": 67,
+                "value": 127
+              },
+              {
+                "id": "pedal-29-down",
+                "tick": 107520,
+                "controller": 64,
+                "value": 90
+              },
+              {
+                "id": "pedal-29-up",
+                "tick": 111240,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-30-down",
+                "tick": 111360,
+                "controller": 64,
+                "value": 94
+              },
+              {
+                "id": "pedal-30-up",
+                "tick": 115080,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-31-down",
+                "tick": 115200,
+                "controller": 64,
+                "value": 102
+              },
+              {
+                "id": "pedal-31-up",
+                "tick": 118920,
+                "controller": 64,
+                "value": 0
+              },
+              {
+                "id": "pedal-32-down",
+                "tick": 119040,
+                "controller": 64,
+                "value": 110
+              },
+              {
+                "id": "pedal-32-up",
+                "tick": 122760,
+                "controller": 64,
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "mixer": {
+        "gain_db": -1.5,
+        "pan": 0.0,
+        "mute": false,
+        "solo": false
+      }
+    }
+  ]
+}

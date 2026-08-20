@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Music</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="transport">
+        <div class="brand-block">
+          <div class="brand">AI Music</div>
+          <div id="project-name" class="project-name">未命名工程</div>
+        </div>
+        <div class="transport-actions">
+          <button id="new-project" class="quiet">新建</button>
+          <button id="open-project" class="quiet">打开</button>
+          <button id="save-project" class="quiet">保存</button>
+          <button id="choose-piano-asset" class="quiet">钢琴音色</button>
+          <button id="render-project" class="quiet">导出 WAV</button>
+          <button id="undo" class="quiet" title="撤销">↶</button>
+          <button id="redo" class="quiet" title="重做">↷</button>
+          <button id="play" class="primary">播放</button>
+          <button id="stop" class="quiet">停止</button>
+        </div>
+        <div class="tempo">
+          <label for="tempo">BPM</label>
+          <input id="tempo" type="number" min="1" max="300" value="120" />
+        </div>
+        <div class="meter" title="拍号">
+          <span>拍号</span>
+          <select id="meter-numerator" aria-label="拍号分子">
+            <option>2</option>
+            <option>3</option>
+            <option selected>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>9</option>
+            <option>12</option>
+          </select>
+          <span>/</span>
+          <select id="meter-denominator" aria-label="拍号分母">
+            <option>2</option>
+            <option selected>4</option>
+            <option>8</option>
+            <option>16</option>
+            <option>32</option>
+          </select>
+        </div>
+        <div class="grid-controls" title="量化网格">
+          <select id="grid" aria-label="网格">
+            <option value="quarter">1/4</option>
+            <option value="eighth">1/8</option>
+            <option value="sixteenth" selected>1/16</option>
+            <option value="thirty-second">1/32</option>
+            <option value="eighth-triplet">1/8T</option>
+            <option value="sixteenth-triplet">1/16T</option>
+          </select>
+          <select id="quantize-strength" aria-label="量化强度" title="量化强度">
+            <option value="25">25%</option>
+            <option value="50">50%</option>
+            <option value="75">75%</option>
+            <option value="100" selected>100%</option>
+          </select>
+          <button id="quantize" class="quiet" title="量化当前音轨">量化</button>
+        </div>
+      </header>
+
+      <section class="workspace">
+        <aside class="tracks">
+          <section class="ai-panel">
+            <label for="ai-instruction">AI 自动创作</label>
+            <textarea id="ai-instruction" rows="4" maxlength="8192" placeholder="例如：做一首安静、逐渐明亮的钢琴曲"></textarea>
+            <button id="run-autopilot" class="primary">开始</button>
+            <div id="ai-result" class="ai-result">只需描述想做什么，AI 会自动创作、试听评审并修订。</div>
+          </section>
+          <div class="panel-title">
+            <span>音轨</span>
+            <button id="add-track" class="panel-action" title="新增钢琴轨">+</button>
+          </div>
+          <div id="track-list"></div>
+        </aside>
+        <section class="editor">
+          <div class="ruler" id="ruler"></div>
+          <canvas id="piano-roll"></canvas>
+          <div id="empty-state" class="empty-state">双击网格添加音符</div>
+        </section>
+      </section>
+
+      <footer class="status"><span id="status-text">就绪</span><span id="revision"></span></footer>
+    </main>
+
+    <div id="project-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+      <div class="modal-surface">
+        <div id="project-modal-title" class="modal-title">新建工程</div>
+        <label class="modal-field">
+          <span>名称</span>
+          <input id="project-name-input" type="text" maxlength="120" autocomplete="off" />
+        </label>
+        <div class="modal-field">
+          <span>位置</span>
+          <div class="location-row">
+            <button id="choose-location" class="quiet">选择文件夹</button>
+            <span id="project-location" class="location-value">未选择</span>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button id="cancel-project-modal" class="quiet">取消</button>
+          <button id="confirm-project-modal" class="primary">创建</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
