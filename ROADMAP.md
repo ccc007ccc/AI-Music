@@ -21,6 +21,10 @@ with “production-complete.”
 
 ## Reliability and operations
 
+- Track the upstream GTK3/glib advisory inherited by Tauri's Linux WebKitGTK
+  stack and migrate when a supported patched dependency path is available
+  ([#3](https://github.com/ccc007ccc/AI-Music/issues/3)). The affected
+  `glib::VariantStrIter` API is not called by this repository.
 - Replace the current fail-fast provider behavior with bounded retry/backoff,
   provider health classification, and configurable fallback adapters.
 - Add cancellation and progress events for long desktop Autopilot jobs.
