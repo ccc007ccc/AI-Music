@@ -5,6 +5,11 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    ignore:
+      # cpal 0.18 changes its public error/configuration API. Keep the
+      # 0.15-compatible audio player until that migration is intentional.
+      - dependency-name: cpal
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
